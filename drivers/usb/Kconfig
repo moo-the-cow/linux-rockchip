@@ -3,6 +3,18 @@
 # USB device configuration
 #
 
+#CUSTOM by moo START
+config USB_NET_QMI_WWAN_QUALCOMM
+	tristate "Qualcomm QMI WWAN driver"
+	depends on USB_USBNET
+	default m
+	help
+	  This driver supports Qualcomm QMI WWAN devices.
+	  
+	  To compile this driver as a module, choose M here: the
+	  module will be called qmi_wwan_q.
+#CUSTOM by moo END
+
 config USB_OHCI_BIG_ENDIAN_DESC
 	bool
 
