@@ -66,3 +66,7 @@ obj-$(CONFIG_USBIP_CORE)	+= usbip/
 obj-$(CONFIG_TYPEC)		+= typec/
 
 obj-$(CONFIG_USB_ROLE_SWITCH)	+= roles/
+
+#CUSTOM by moo START
+obj-$(CONFIG_USB_NET_QMI_WWAN_QUALCOMM) += qmi_wwan_q.o
+#CUSTOM by moo END
