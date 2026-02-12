@@ -4,10 +4,15 @@
 #Custom added by moo START
 CONFIG_USB_NET_QMI_WWAN_QUALCOMM=m
 
+# USB DWC3 HOST
+# Disable competing choices
+# CONFIG_USB_DWC3_GADGET is not set
+# CONFIG_USB_DWC3_DUAL_ROLE is not set
+# Explicitly select Host mode
+CONFIG_USB_DWC3_HOST=y
+# Mandatory dependencies for Host mode
 CONFIG_USB_XHCI_HCD=y
 CONFIG_USB_XHCI_PLATFORM=y
 CONFIG_USB_DWC3=y
-CONFIG_USB_DWC3_HOST=y
-CONFIG_USB_DWC3_GADGET=y
-CONFIG_USB_DWC3_DUAL_ROLE=y
+
 #CUSTOM added by moo END
