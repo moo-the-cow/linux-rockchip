@@ -1,3 +1,10 @@
+linux-rockchip (6.1.0-1028.28) noble; urgency=medium
+
+  * Custom build: Enable USB DWC3 Host mode for UVC support
+  * Bump ABI version to 1028
+
+ -- moo-the-cow <moo-other@fake.mail>  Thu, 12 Feb 2026 09:00:00 +0000
+
 linux-rockchip (6.1.0-1027.27) noble; urgency=medium
 
   * UBUNTU: Enable PPS line discipline
