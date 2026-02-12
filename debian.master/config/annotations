@@ -14741,9 +14741,9 @@ CONFIG_ZYNQMP_PM_DOMAINS                        policy<{'arm64': 'y'}>
 CONFIG_ZYNQMP_POWER                             policy<{'arm64': 'y'}>
 
 #ADDED BY MOO
-CONFIG_USB_XHCI_HCD                             policy<{'arm64': 'y'}>
-CONFIG_USB_XHCI_PLATFORM                        policy<{'arm64': 'y'}>
-CONFIG_USB_DWC3                                 policy<{'arm64': 'y'}>
-CONFIG_USB_DWC3_HOST                            policy<{'arm64': 'y'}>
-CONFIG_USB_DWC3_GADGET                          policy<{'arm64': 'y'}>
-CONFIG_USB_DWC3_DUAL_ROLE                       policy<{'arm64': 'y'}>
+#CONFIG_USB_XHCI_HCD                             policy<{'arm64': 'y'}>
+#CONFIG_USB_XHCI_PLATFORM                        policy<{'arm64': 'y'}>
+#CONFIG_USB_DWC3                                 policy<{'arm64': 'y'}>
+#CONFIG_USB_DWC3_HOST                            policy<{'arm64': 'y'}>
+#CONFIG_USB_DWC3_GADGET                          policy<{'arm64': 'y'}>
+#CONFIG_USB_DWC3_DUAL_ROLE                       policy<{'arm64': 'y'}>
